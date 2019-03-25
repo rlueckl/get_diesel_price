@@ -1,0 +1,5 @@
+#
+# cron.d/get_diesel_price.cron -- Get the current prices and send them to graphite
+#
+
+*/15 * * * * root /var/lib/graphite/scripts/get_diesel_price.py
